@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Mon Nom</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Rakotoarivony Njaratiana Gaela</h1>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil" class="fade-in">
+      <h2>Bonjour, je suis <span>Gaela</span></h2>
+      <p>Etudiante passionné en activité technologique,en développement web basé à Antananarivo, spécialisé en interfaces modernes et performantes.</p>
+    </section>
+
+    <section id="projets" class="fade-in">
+      <h2>Projets</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Portfolio Perso</h3>
+          <p>Site vitrine en HTML, CSS, JS.</p>
+        </div>
+        <div class="card">
+          <h3>Projet avec Sass</h3>
+          <p>Site vitrine avec HTML, Sass</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="competences" class="fade-in">
+      <h2>Compétences</h2>
+      <ul class="skills">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Git & GitHub</li>
+        <li>Figma</li>
+      </ul>
+    </section>
+
+    <section id="apropos" class="fade-in">
+      <h2>À propos</h2>
+      <p>Autodidacte et curieux, j'aime construire des expériences web fluides, accessibles et élégantes. Mon objectif : résoudre des problèmes réels avec du code propre et bien pensé.</p>
+    </section>
+
+    <section id="contact" class="fade-in">
+  <h2>Me contacter</h2>
+  <p>Je suis ouvert aux opportunités ou collaborations. N’hésitez pas à m’envoyer un message !</p>
+  
+  <form id="contact-form" action="https://formspree.io/f/TON_ID_FORM" method="POST">
+    <input type="text" name="nom" placeholder="Votre nom" required />
+    <input type="email" name="email" placeholder="Votre email" required />
+    <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+
+  <div class="contact-links">
+    <p>Ou contactez-moi via :</p>
+    <ul>
+      <li><a href="njaratianagaelarakotoarivony@gmail.com">Email</a></li>
+      <li><a href="https://github.com/njaratianarakotoarivony" target="_blank">GitHub</a></li>
+    </ul>
+  </div>
+</section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gaela. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
