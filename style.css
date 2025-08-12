@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  background: rgb(109, 205, 203);
+  background: #5eb0ce;
   padding: 1.5rem 2rem;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
   position: sticky;
@@ -121,7 +121,7 @@ button {
 footer {
   text-align: center;
   padding: 2rem;
-  background: rgb(109, 205, 203);
+  background: #5eb0ce;
   font-size: 0.9rem;
 }
 
